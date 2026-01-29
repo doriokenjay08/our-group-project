@@ -23,7 +23,7 @@ public class addition {
                 break;
             }
 
-            // Check for valid menu choice before asking for numbers
+      
             if (choice < 1 || choice > 4) {
                 System.out.println("Invalid choice. Try again.");
                 continue;
