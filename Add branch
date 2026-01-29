@@ -11,7 +11,7 @@ public class addition {
             System.out.println("Select an Operation:");
             System.out.println("1. Addition");
             System.out.println("2. Subtract ");
-            System.out.println("3. Divide ");
+            System.out.println("3. Multiplication ");
             System.out.println("4. Exit");
             System.out.print("Choice: ");
             
@@ -40,7 +40,14 @@ public class addition {
                  case 2:
                     System.out.println("Result: " + (a - b));
                     break;
-            }
+                 case 3:
+                    System.out.println(“Result: “ + (a * b);
+                     break; 
+
+                } 
+                default: 
+                    System.out.println(“Exiting…”);
+  
         }
      
     }
