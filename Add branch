@@ -8,7 +8,7 @@ public class addition {
         System.out.println("Team B Calculator");
 
         while (running) {
-            System.out.println("Select an Operation:");
+            System.out.print("Select an Operation:");
             System.out.println("1. Addition");
             System.out.println("2. Subtract ");
             System.out.println("3. Divide ");
@@ -38,7 +38,9 @@ public class addition {
                     System.out.println("Result: " + (a + b));
                     break;
                 case 2:
-                   // paki sunod nalang po
+                    System.out.println("Result: " + (a - b));
+                    break;
+                
             }
         }
      
