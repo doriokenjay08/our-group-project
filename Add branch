@@ -37,8 +37,9 @@ public class addition {
                 case 1:
                     System.out.println("Result: " + (a + b));
                     break;
-                case 2:
-                   // paki sunod nalang po
+                 case 2:
+                    System.out.println("Result: " + (a - b));
+                    break;
             }
         }
      
