@@ -14,15 +14,12 @@ public class Multiplication {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         case 3:
-            System.out.println(“Result: “ + (a * b);
+            System.out.println(“Result: “ + (a * b));
             
         break; 
-
-        default: 
-            System.out.println(“Exiting…”);
-            
-
+        
     }
     
 }
